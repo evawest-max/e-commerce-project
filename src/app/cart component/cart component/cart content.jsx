@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { MdOutlineDeleteForever } from "react-icons/md";
 import ItemQuantity from "./itemQuantity";
