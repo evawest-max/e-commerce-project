@@ -2,11 +2,11 @@
 import './App.css'
 import CartProvider from './context folder/appContext'
 import Appsection from './app componets';
-import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import ShowRoom from './showRoom component/showroom'
 import Cart from './cart component/cart'
 import Checkout from './cart component/checkoutPage'
 import Notfound from './notfound/notfound'
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
